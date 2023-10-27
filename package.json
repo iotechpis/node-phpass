@@ -1,5 +1,5 @@
 {
-  "name": "node-phpass",
+  "name": "@iotechpis/node-phpass",
   "version": "1.0.6",
   "description": "Openwall PHPass class port to Node - Wordpress class used to hash passwords.",
   "keywords": [
@@ -26,5 +26,10 @@
     "bcryptjs": "^2.4.3",
     "crypto-js": "^3.1.9-1",
     "locutus": "^2.0.10"
+  },
+  "private": false,
+  "scope": "public",
+  "publishConfig": {
+    "access": "public"
   }
 }
